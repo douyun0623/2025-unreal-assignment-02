@@ -85,7 +85,7 @@ Behavior Tree, Blackboard, NavMesh 경로 탐색은 사용하지 않았으므로
 
 1. Unreal Engine **5.5**를 설치합니다.
 2. 저장소를 clone합니다.
-3. 루트의 `.uproject` 파일을 엽니다.
+3. 루트의 `BallCombatPractice.uproject` 파일을 엽니다.
 4. `Content/_TEST3/CharacterAnimationMontageMap.umap`을 엽니다.
 5. Blueprint를 Compile한 뒤 Play In Editor로 실행합니다.
 
@@ -103,7 +103,7 @@ Behavior Tree, Blackboard, NavMesh 경로 탐색은 사용하지 않았으므로
 
 ```text
 .
-├─ *.uproject
+├─ BallCombatPractice.uproject
 ├─ Config/
 ├─ Content/
 │  ├─ _TEST3/               # 커스텀 캐릭터·공·좀비·맵
@@ -112,4 +112,3 @@ Behavior Tree, Blackboard, NavMesh 경로 탐색은 사용하지 않았으므로
 ├─ Plugins/LandscapeLab/    # 외부 플러그인
 └─ README.md
 ```
-
